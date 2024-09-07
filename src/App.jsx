@@ -15,7 +15,7 @@ function App() {
             <Router>
                 <Nav />
                 <Routes>
-                    <Route path="/hafeze" element={<Home />} />
+                    <Route path="/hafeze/" element={<Home />} />
                     <Route path="/hafeze/profile" element={<Profile />} />
                     <Route path="/hafeze/test" element={<Test />} />
                     <Route path="/hafeze/add" element={<Add />} />
